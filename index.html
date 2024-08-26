@@ -61,10 +61,12 @@
 
                 <li
                     class="w-[30px] h-[30px] rounded-[50%] bg-[rgba(255,255,255,0.3)] cursor-pointer flex justify-center items-center">
-                    <i class="fa-solid fa-cart-shopping"></i></li>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
                 <li
                     class="w-[30px] h-[30px] rounded-[50%] bg-[rgba(255,255,255,0.3)] cursor-pointer flex justify-center items-center">
-                    <i class="fa-solid fa-magnifying-glass"></i></li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
                 <li class="bg-btn_primary px-[10px] py-[5px] rounded-[20px] "><a href="#"
                         class=" flex  justify-center items-center gap-1 Manrope capitalize">book consult <i
                             class="fa-solid fa-arrow-up-long transform rotate-45  bg-black w-[20px] h-[20px] rounded-[50%] flex justify-center items-center text-[white] "></i></a>
@@ -88,12 +90,13 @@
             </div>
         </div>
         <!-- navbar end here -->
-        <div class="hero min-h-screen">
+        <div class="hero  min-h-screen">
             <div class=" bg-white"></div>
             <div class="hero-content  text-center  w-full">
                 <div class="w-[80%] flex flex-col justify-center items-center gap-3">
                     <img src="./B10-Assignment-03/assets/banner.png" alt="">
-                    <h1 class="mb-5 text-[30px] md:text-[35px] lg:text-[60px] font-bold w-full text-center capitalize ">
+                    <h1
+                        class="mb-5 text-[30px] md:text-[35px] lg:text-[60px] font-bold w-full text-center capitalize Manrope">
                         A barn house of this design has a <br>striking appearance</h1>
                     <p class="mb-5 w-[100%] text-[13px] md:text-1xl md:w-[70%]">
                         The barn house captivates with its blend of rustic charm and modern sophistication, featuring
@@ -101,7 +104,7 @@
                         metal accents, and large windows that flood the space with natural light.
                     </p>
                     <a href="#"
-                        class=" bg-[#ABEF5F80] px-[25px] py-3 rounded-[30px] flex  justify-center items-center gap-1 Manrope capitalize">book
+                        class="w-[100%] lg:w-[max-content] bg-[#ABEF5F80] px-[25px] py-3 rounded-[30px] flex  justify-center items-center gap-1 Manrope capitalize">book
                         consult <i
                             class="fa-solid fa-arrow-up-long transform rotate-45  bg-btn_primary w-[20px] h-[20px]  flex justify-center rounded-[50%] items-center text-[white] "></i></a>
                 </div>
@@ -109,30 +112,340 @@
         </div>
     </header>
     <!-- header end here -->
-
     <!-- about -->
-     <div class="m-auto w-full bg-[#F4F4F4] h-[100vh] flex justify-center items-center relative ">
+    <div class="m-auto w-full bg-[#F4F4F4] h-[auto] mt-5 flex justify-center items-center relative ">
 
-        <img src="./B10-Assignment-03/assets/Vector.png" alt="" class="absolute top-0 left-[100px] cursor-pointer  border-[lightgray] border-dotted border-[2px] py-2 z-10">
+        <img src="./B10-Assignment-03/assets/Vector.png" alt=""
+            class="absolute top-0 left-[100px] cursor-pointer  border-[lightgray] border-dotted border-[2px] py-2 z-10 hidden lg:flex">
 
-        <button class=" absolute left-[170px] top-[50px] px-4 py-1 bg-[white] rounded-[50px] flex  justify-center items-center gap-2" ><i
-            class="fa-solid fa-arrow-up-long   transform rotate-[90deg] "></i> <span>about us</span> </button>
+        <button
+            class=" absolute left-[150px]   md:left-[170px] top-[10px] md:top-[10px] lg:top-[50px] px-4 py-1 bg-[white] rounded-[50px] flex  justify-center items-center gap-2"><i
+                class="fa-solid fa-arrow-up-long  transform rotate-[90deg] "></i> <span>about us</span> </button>
 
-         <div class="card lg:card-side bg-base-100  m-auto bg-transparent w-[80%] container">
-           
-                <div class="card-body">
-                    <h2 class="card-title">New album is released!</h2>
-                    <p>Click the button to listen on Spotiwhy app.</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Listen</button>
+        <div
+            class="card lg:card-side bg-base-100  m-auto   w-[100%] md:w-[80%] container  flex flex-col lg:flex-row justify-center items-center  ">
+
+            <div class="card-body my-3 h-[max-content]    w-[100%] ">
+                <h2
+                    class="card-title text-2xl Manrope  flex flex-col justify-center items-center gap-0 md:justify-start md:items-start">
+                    We design thoughtful,<br class=""> liveable spaces</h2>
+                <p class="text-center md:text-left md:w-[80%]">The barn house captivates with its blend of rustic charm
+                    and
+                    modern sophistication, featuring weathered wood, sleek metal accents.
+                </p>
+                <div class="flex flex-col gap-3 w-[100%] md:flex-row lg:flex-col ">
+                    <div
+                        class="item flex justify-start items-center gap-3 bg-[white] p-[20px] rounded-[20px] cursor-pointer">
+                        <img src="./B10-Assignment-03/assets/commercial.png" alt=""
+                            class="w-[40px] h-[40px] md:w-[50px] md:h-[40px] lg:w-[50px] lg:h-[50px]">
+                        <div>
+                            <h3 class="font-bold text-2xl">Commercial</h3>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="item flex justify-start items-center gap-3 bg-[white] p-[20px] rounded-[20px] cursor-pointer">
+                        <img src="./B10-Assignment-03/assets/commercial.png" alt=""
+                            class="w-[40px] h-[40px] md:w-[50px] md:h-[40px] lg:w-[50px] lg:h-[50px]">
+                        <div>
+                            <h3 class="font-bold text-2xl">Commercial</h3>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
                     </div>
                 </div>
-                <figure>
-                    <img src="./B10-Assignment-03/assets/Rectangle.png" alt="Album" class="rounded-[40px]" />
-                </figure>
+                <!-- <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Listen</button>
+                    </div> -->
+            </div>
+
+            <img src="./B10-Assignment-03/assets/Rectangle.png" alt="Album"
+                class="rounded-[40px] object-cover w-[90%] lg:w-[50%] h-[300px]  lg:h-[400px]" />
+
+        </div>
+    </div>
+    <!-- about end -->
+
+    <!-- count down  -->
+    <div class="bg-[#F4F4F4] w-full flex justify-center items-center ">
+        <div
+            class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2  container  mx-auto bg-[white] rounded w-[90%] md:w-[100%] my-7">
+
+            <div class="stat place-items-center cursor-pointer">
+                <div class="stat-title"><i class="fa-regular fa-message text-3xl text-[lightgray]"></i></div>
+                <div class="stat-value Manrope">235+</div>
+                <div class="stat-desc Manrope">happy client Review</div>
+            </div>
+
+            <div class="stat place-items-center cursor-pointer">
+                <div class="stat-title"><i class="fa-solid fa-house text-3xl text-[lightgray] "></i></div>
+                <div class="stat-value Manrope">50+</div>
+                <div class="stat-desc Manrope">work Deparments</div>
+            </div>
+
+            <div class="stat place-items-center cursor-pointer">
+                <div class="stat-title"><i class="fa-solid fa-users text-3xl text-[lightgray]"></i></div>
+                <div class="stat-value Manrope">30k+</div>
+                <div class="stat-desc  Manrope">↘︎ our Happy client</div>
+            </div>
+            <div class="stat place-items-center cursor-pointer">
+                <div class="stat-title"><i class="fa-solid fa-user-group text-3xl text-[lightgray]"></i></div>
+                <div class="stat-value Manrope">307+</div>
+                <div class="stat-desc Manrope">↘︎ staff Members</div>
             </div>
         </div>
-     <!-- about end -->
+    </div>
+    <!-- count down end here  -->
+    <!-- work section start here -->
+    <div class="w-full bg-[#F4F4F4]">
+        <div
+            class="bg-[#F4F4F4] py-9 pb-[50px]   mx-auto flex justify-center items-center w-[90%]  md:w-[100%] lg:w-[100%] flex-col ">
+            <div class="container   mx-auto my-[50px] flex justify-center items-center flex-col  gap-4 w-[100%]">
+                <button class=" px-4 py-1 bg-[white] rounded-[50px] flex  justify-center items-center gap-2"><i
+                        class="fa-solid fa-arrow-up-long  transform rotate-[90deg] "></i> <span>How we works</span>
+                </button>
+                <h2 class="w-[80%] m-auto text-center text-3xl capitalize font-semibold">Our Works Process</h2>
+                <p class=" m-auto text-center Manrope lg:w-[55%] md:w-[70%] w-[100%]">The barn house captivates with its
+                    blend of rustic charm and modern sophistication, featuring weathered wood, sleek
+                    metal accents.</p>
+            </div>
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container gap-6">
+
+                <div class="card  bg-[#E7C1D3] flex flex-col justify-center items-start p-[10px] shadow  gap-1">
+                    <img src="./B10-Assignment-03/assets/concept.png" alt="" class="w-[40px] h-[40px]">
+                    <h3 class="text-2xl capitalize Manrope">concept</h3>
+                    <p class="Manrope text-[14px] capitalize ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque
+                        harum temporibus quos molestiae impedit ducimus deleniti ipsam at alias eos!</p>
+                </div>
+                <div class="card  bg-[#EFDA6E] flex flex-col justify-center items-start p-[10px] shadow  gap-1">
+                    <img src="./B10-Assignment-03/assets/flow-chart.png" alt="" class="w-[40px] h-[40px]">
+                    <h3 class="text-2xl capitalize Manrope">concept</h3>
+                    <p class="Manrope text-[14px] capitalize ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque
+                        harum
+                        temporibus quos molestiae impedit ducimus deleniti ipsam at alias eos!</p>
+                </div>
+                <div class="card  bg-[#A4DAC3] flex flex-col justify-center items-start p-[10px] shadow  gap-1">
+                    <img src="./B10-Assignment-03/assets/vision.png" alt="" class="w-[40px] h-[40px]">
+                    <h3 class="text-2xl capitalize Manrope">concept</h3>
+                    <p class="Manrope text-[14px] capitalize ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque
+                        harum
+                        temporibus quos molestiae impedit ducimus deleniti ipsam at alias eos!</p>
+                </div>
+                <div class="card  bg-[#77AAEA] flex flex-col justify-center items-start p-[10px] shadow  gap-1">
+                    <img src="./B10-Assignment-03/assets/budget-planning.png" alt="" class="w-[40px] h-[40px]">
+                    <h3 class="text-2xl capitalize Manrope">concept</h3>
+                    <p class="Manrope text-[14px] capitalize ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque
+                        harum
+                        temporibus quos molestiae impedit ducimus deleniti ipsam at alias eos!</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- work section end here -->
+
+    <!-- portfolio section start here  -->
+    <div class="bg-[#FFFFFF] flex flex-col justify-center items-center gap-2 md:gap-5  p-4">
+        <div class="container   mx-auto my-[50px] flex justify-center items-center flex-col  gap-4 w-[100%] ">
+            <button class=" px-4 py-1 bg-[#ABEF5F33] rounded-[50px] flex  justify-center items-center gap-2"><i
+                    class="fa-solid fa-arrow-up-long  transform rotate-[90deg] "></i> <span>Explore our Latest
+                    works</span> </button>
+            <h2 class="w-[80%] m-auto text-center text-3xl capitalize font-semibold">Our Latest Portfolio</h2>
+            <p class=" m-auto text-center Manrope lg:w-[55%] md:w-[70%] w-[100%]">The barn house captivates with its
+                blend of rustic charm and modern sophistication, featuring weathered wood, sleek
+                metal accents..</p>
+        </div>
+        <div class="grid md:grid-rows-2 md:gap-4 gap-3 w-full container my-[50px] ">
+            <div class=" grid grid-cols-1 md:grid-cols-10  gap-5   align-self-center  ">
+                <div
+                    class="col-span-10 md:col-span-7  flex flex-col md:flex-row gap-2  h-[max-content]  md:h-[200px]  border-none    md:border   cursor-pointer  rounded-[20px]   w-[100%] p-5   overflow-hidden  shadow   ">
+                    <div class="h-full w-full md:w-1/2  rounded-[20px] md:rounded-none "><img
+                            src="./B10-Assignment-03/assets/img1.png" alt=""
+                            class="h-[90%] w-full object-cover border md:border-none rounded-[20px] md:rounded-[20px] ">
+                    </div>
+                    <div
+                        class=" h-full w-full flex justify-start items-start flex-col gap-2 p-4 border md:border-none rounded-[20px] md:rounded-[0] bg-[white] ">
+                        <h2 class="capitalize font-bold Manrope text-2xl">Commercial</h2>
+                        <p>The barn house captivates with its blend of rustic charm and modern. The barn house
+                            captivates with its blend of rustic
+                            charm and modern .</p>
+                        <a href="#"
+                            class=" flex  justify-center items-center gap-1 mt-3  capitalize font-bold Manrope">View
+                            Details <i
+                                class="fa-solid fa-arrow-up-long transform rotate-45  bg-btn_primary w-[20px] h-[20px] rounded-[50%] flex justify-center items-center text-[white] "></i></a>
+                    </div>
+                </div>
+                <div class="col-span-10 md:col-span-3 card h-[200px]   overflow-hidden cursor-pointer">
+                    <div class="h-full w-full "><img src="./B10-Assignment-03/assets/img1.png" alt=""
+                            class="h-full w-full">
+                    </div>
+                </div>
+
+            </div>
+            <div class="grid md:grid-cols-4 grid-cols-1  gap-5  ">
+                <div class="col-span-1 border-none md:border h-[200px]  bg-[white]">
+                    <div class="h-full w-full border-none md:border   "><img src="./B10-Assignment-03/assets/img1.png"
+                            alt="" class="h-full w-full rounded-[20px]">
+                    </div>
+                </div>
+                <div
+                    class=" col-span-1 md:col-span-2 border-none md:border h-[max-content] md:h-[200px] flex flex-col md:flex-row justify-start items-start rounded-[20px] overflow-hidden bg-[white] gap-4 md:gap-0 ">
+                    <div class="h-full md:w-1/2 w-full  "><img src="./B10-Assignment-03/assets/img1.png" alt=""
+                            class="w-full h-[200px] md:h-full shadow">
+                    </div>
+                    <div
+                        class=" h-full w-full flex justify-start items-start flex-col gap-2 p-4 border md:border-none  rounded-[20px] ">
+                        <h2 class="capitalize font-bold Manrope text-2xl">Commercial</h2>
+                        <p>The barn house captivates with its blend of rustic charm and modern. The barn house
+                            captivates with its blend of rustic
+                            charm and modern .</p>
+                        <a href="#"
+                            class=" flex  justify-center items-center gap-1 mt-3  capitalize font-bold Manrope">View
+                            Details <i
+                                class="fa-solid fa-arrow-up-long transform rotate-45  bg-btn_primary w-[20px] h-[20px] rounded-[50%] flex justify-center items-center text-[white] "></i></a>
+                    </div>
+                </div>
+                <div class="col-span-1 border-none md:border rounded-[20px] h-[200px] bg-[white] shadow ">
+                    <div class="h-full w-full "><img src="./B10-Assignment-03/assets/img1.png" alt=""
+                            class="h-full w-full">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- portfoliio section end here -->
+    <!-- article section start here -->
+    <div class="bg-[#F4F4F4] flex flex-col justify-center items-center gap-5">
+        <div class="container   mx-auto my-[10px]  flex justify-center items-center flex-col  gap-4 w-[100%]">
+            <button class=" px-4 py-1 bg-[#ABEF5F33] rounded-[50px] flex  justify-center items-center gap-2"><i
+                    class="fa-solid fa-arrow-up-long  transform rotate-[90deg] "></i> <span>Rinterio News</span>
+            </button>
+            <h2 class="w-[80%] m-auto text-center text-3xl capitalize font-semibold">Read Our Articles and News</h2>
+            <p class=" m-auto text-center Manrope lg:w-[55%] md:w-[70%] w-[100%]">The barn house captivates with its
+                blend of rustic charm and modern sophistication, featuring weathered wood, sleek
+                metal accents.</p>
+        </div>
+
+        <div class="container w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  my-[30px]">
+            <div class="border shadow flex flex-col justify-start items-start p-3 rounded-[20px] gap-2 bg-white">
+                <img src="./B10-Assignment-03/assets/article1.png" alt=""
+                    class="w-full h-[200px] object-cover  rounded">
+                <div class="flex justify-start items-start flex-col gap-1">
+                    <p class=" Manrope"><span>july14, 2024</span> <span>By Admin</span> </p>
+                    <h2 class="text-2xl Manrope">How to choose the furniture right of your home </h2>
+                    <p class="text-[13px] Manrope">The barn house captivates with its blend of rustic charm and modern.
+                    </p>
+                    <a href="#" class=" flex  justify-center items-center gap-1 mt-3  capitalize font-bold Manrope">Read
+                        More <i
+                            class="fa-solid fa-arrow-up-long transform rotate-45  bg-btn_primary w-[20px] h-[20px] rounded-[50%] flex justify-center items-center text-[white] "></i></a>
+                </div>
+            </div>
+            <div class="border shadow flex flex-col justify-start items-start p-3 rounded-[20px] gap-2 bg-white">
+                <img src="./B10-Assignment-03/assets/article1.png" alt=""
+                    class="w-full h-[200px] object-cover  rounded">
+                <div class="flex justify-start items-start flex-col gap-1">
+                    <p class=" Manrope"><span>july14, 2024</span> <span>By Admin</span> </p>
+                    <h2 class="text-2xl Manrope">How to choose the furniture right of your home </h2>
+                    <p class="text-[13px] Manrope">The barn house captivates with its blend of rustic charm and modern.
+                    </p>
+                    <a href="#" class=" flex  justify-center items-center gap-1 mt-3  capitalize font-bold Manrope">Read
+                        More <i
+                            class="fa-solid fa-arrow-up-long transform rotate-45  bg-btn_primary w-[20px] h-[20px] rounded-[50%] flex justify-center items-center text-[white] "></i></a>
+                </div>
+            </div>
+            <div class="border shadow flex flex-col justify-start items-start p-3 rounded-[20px] gap-2 bg-white">
+                <img src="./B10-Assignment-03/assets/article1.png" alt=""
+                    class="w-full h-[200px] object-cover  rounded">
+                <div class="flex justify-start items-start flex-col gap-1">
+                    <p class=" Manrope"><span>july14, 2024</span> <span>By Admin</span> </p>
+                    <h2 class="text-2xl Manrope">How to choose the furniture right of your home </h2>
+                    <p class="text-[13px] Manrope">The barn house captivates with its blend of rustic charm and modern.
+                    </p>
+                    <a href="#" class=" flex  justify-center items-center gap-1 mt-3  capitalize font-bold Manrope">Read
+                        More <i
+                            class="fa-solid fa-arrow-up-long transform rotate-45  bg-btn_primary w-[20px] h-[20px] rounded-[50%] flex justify-center items-center text-[white] "></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- article section end here -->
+    <!-- contact form start here -->
+
+    <section
+        class="bg-[url('./B10-Assignment-03/assets/bg.jpg')] bg-cover bg-center w-full  h-[max-content]md:h-screen flex justify-center items-center flex-col gap-2 ">
+        <form action="" class="w-full container  m-auto flex justify-center items-center flex-col p-5    gap-4">
+            <div class="flex justify-center items-center flex-col gap-4 mb-0  ">
+                <button class=" px-4 py-1 bg-[#ABEF5F33] rounded-[50px] flex  justify-center items-center gap-2"><i
+                        class="fa-solid fa-arrow-up-long  transform rotate-[90deg] "></i> <span>Let's connect</span>
+                </button>
+                <h2 class="w-[80%] m-auto text-center text-3xl capitalize font-semibold Manrope">Let’s Discuss Next Project</h2>
+                <p class=" m-auto text-center Manrope lg:w-[55%] md:w-[70%] w-[100%]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek
+                metal accents.</p>
+            </div>
+            <div class="w-[90%] md:w-[60%] flex-col  m-auto flex md:flex-row justify-center items-center gap-3 ">
+                <input type="text" placeholder="First name" class="w-full md:w-[50%] outline-none border-[1px] border-[lightgray]  h-[40px] px-[10px] py-[5px] rounded-[30px]" required>
+                <input type="text" placeholder="First name" class="w-full md:w-[50%] outline-none border-[1px] border-[lightgray]  h-[40px] px-[10px] py-[5px] rounded-[30px]" required>
+
+            </div>
+            <div class="w-[90%] md:w-[60%] flex-col  m-auto flex md:flex-row justify-center items-center gap-3 ">
+                <input type="text" placeholder="First name"
+                    class="w-full md:w-[50%] outline-none border-[1px] border-[lightgray]  h-[40px] px-[10px] py-[5px] rounded-[30px]"
+                    required>
+                <input type="text" placeholder="First name"
+                    class="w-full md:w-[50%] outline-none border-[1px] border-[lightgray]  h-[40px] px-[10px] py-[5px] rounded-[30px]"
+                    required>
+            
+            </div>
+            <div class=" w-[90%] md:w-[60%]">
+                <textarea  class=" h-[150px]  px-[10px] py-[5px] rounded-[10px] w-full outline-none border " placeholder="Your message"></textarea>
+            </div>
+            <div class=" w-full md:w-[60%] bg-btn_primary cursor-pointer rounded-[30px]">
+                <button class=" px-[10px] py-[5px] rounded-[10px] w-full flex justify-center items-center gap-2 Manrope font-bold" >Send mail <i
+                    class="fa-solid fa-arrow-up-long transform rotate-45  bg-black w-[20px] h-[20px] rounded-[50%] flex justify-center items-center text-[white] "></i></button>
+            </div>
+        </form>
+    </section>
+    <!-- contact form end here -->
+
+
+    <!-- footer start here  -->
+
+    <footer class="w-full h-[max-content] md:h-[400px] pb-[50px] bg-[#1C1C1C] p-5  flex justify-center items-center flex-col gap-5">
+        
+        <div class="w-full container ">
+            <h3 class="flex justify-center items-center gap-3 my-3"><i
+                    class="fa-solid fa-arrow-up-long transform rotate-45  bg-btn_primary w-[20px] h-[20px]   rounded-[50%] flex justify-center items-center  "></i><span
+                    class="text-2xl text-[white] Manrope">Renterio</span></h3>
+            <p class="text-center w-[90%] md:w-1/2 m-auto Manrope text-[gray]">The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek
+                metal accents.</p>
+        </div>
+            <ul class="flex flex-col md:flex-row justify-center items-center gap-3">
+                <li class="px-5 py-3 capitalize cursor-pointer  text-[lightgray]"><a href="#intro">Home</a></li>
+                <li class="px-5 py-3 capitalize cursor-pointer  text-[lightgray]"><a href="#services">services</a></li>
+                <li class="px-5 py-3 capitalize cursor-pointer  text-[lightgray]"><a href="#portfolio">portfolio</a></li>
+                <li class="px-5 py-3 capitalize cursor-pointer  text-[lightgray]"><a href="#blogs">blogs</a></li>
+                <li class="px-5 py-3 capitalize cursor-pointer  text-[lightgray]"><a href="#contact">contact</a></li>
+            </ul>
+            <a href="#" class=" w-full md:w-[max-content] flex  justify-center items-center gap-1 Manrope capitalize bg-btn_primary px-4 py-[7px] rounded-[25px]">book consult <i
+                    class="fa-solid fa-arrow-up-long transform rotate-45  bg-black w-[20px] h-[20px] rounded-[50%] flex justify-center items-center text-[white] "></i></a>
+    </footer>
+    <!-- footer end here  -->
+
+
+
+
+
+
 </body>
 
 </html>
